@@ -15,10 +15,11 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-image: url('../fotos/blabla.png');
+    background-image: url('../fotos/Page.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+	background-color: #FFF9F4 ;
 }
 header{
     position: relative;
@@ -61,7 +62,7 @@ header .navigation a:hover{
     margin: 40px 70px;
 }
 .content .info h2{
-    color: #fff;
+    color: #305448;
 /*    background-color: #0000003d;*/
     font-family: 'Sono', sans-serif;
     font-size: 55px;
@@ -74,7 +75,7 @@ header .navigation a:hover{
 /*h2{
     text-shadow: 2px 2px 4px #000000;
 }*/
-.content .info h2 span{
+.content .info h2 #textbx{
     color: #000;
     font-size: 50px;
     font-weight: 600;
@@ -317,7 +318,7 @@ h5 a{
 	height: 112vh;
 	background-color: #f5f5f5;
 }
-header{
+.header-box{
 	width: 100%;
 	height: 37%;
 	background-color: #7285f2;
@@ -326,12 +327,12 @@ header{
  .img-l{
 
     position: absolute;
-	top: 17%;
+	top: 8%;
     left: 0;
     right: 0;
     margin: auto;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 } 
 .box-form{
 position: absolute;
@@ -479,6 +480,7 @@ i:hover{
 .fundo-bx{
 	width: 100%;
 	height: 80vh;
+	background-color: #FFF9F4;
 	
 }
 
@@ -495,8 +497,8 @@ i:hover{
 	height: 14%;
 }
 .img-box{
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	height: 60%;
 }
 
 #imgb{
