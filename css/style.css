@@ -490,7 +490,9 @@ body{
 .header{
 	width: 100%;
 	box-shadow: 5px 5px 10px rgba(236, 233, 233, 0.671) ;
-	 border-bottom: 2px solid #e2e2e2 ; 
+	border-bottom: 2px solid #e2e2e2 ; 
+
+	/* border-bottom: 2px solid #e2e2e2 ;  */
 	height: 14%;
 }
 .img-box{
