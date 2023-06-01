@@ -226,7 +226,7 @@ header .navigation a:hover{
 
 h5 a{
 	
-	color:  #0000D6;
+	color:  #7285f2;
 	text-decoration: none;
 	
 	
@@ -260,10 +260,10 @@ h5 a{
 	.container-login .content-box{
 		width: 100%;
 	}
-	.logo-cd{
+	/* .logo-cd{
 		display: flex;
 		width: 40%;
-	}
+	} */
 	.container-login .content-box .form-box{
 		width: 100%;
 		padding: 40px;
@@ -288,7 +288,7 @@ h5 a{
 	i:hover{
 		color: #2a41be;
 	} 
-	 }
+	 }c
 	@media screen and (min-width: 870px){
 		.logo-cd i {
 			color: #000;
@@ -304,7 +304,7 @@ h5 a{
 
 .fundo{
 	height: 112vh;
-	/* background-color: #FFF9F4; */
+
 }
 .header-box{
 	width: 100%;
@@ -332,7 +332,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 85%;
-background-color: #fff;
+background-color: #fcf6f1;
+
+
 
 	 
 }
@@ -403,7 +405,7 @@ top: 345px;
 
 a{
 
-color:  #0000D6;
+color:  #7285f2;
 text-decoration: none;
 }
 
@@ -430,7 +432,7 @@ top: 320px;
 	
 }
  .logo-l i{
-	color: #000;
+	color: #b1b1b1;
 	font-size: 21px;
 } 
 i:hover{
@@ -488,8 +490,7 @@ body{
 .header{
 	width: 100%;
 	box-shadow: 5px 5px 10px rgba(236, 233, 233, 0.671) ;
-	/* border-bottom: 2px solid #e2e2e2 ; */
-	border-bottom: 2px solid #000000 ;
+	 border-bottom: 2px solid #e2e2e2 ; 
 	height: 14%;
 }
 .img-box{
@@ -568,15 +569,7 @@ h3{
 	font-size: 12px;
 	color: #7285f2;
 }
-.logo-voltar{
-	
-	position: absolute;
-	align-items: center;
-	top: 4%;
-    left: 5%;
-    transform: translate( -50%);
-	 
-}
+
 input[type=submit]{
 	background-color: #000000; 
 	
@@ -602,10 +595,19 @@ input[type=submit]{
 	
 
 }
+.logo-voltar{
+	
+	position: absolute;
+	align-items: center;
+	top: 4%;
+    left: 5%;
+    transform: translate( -50%);
+	 
 
+}
 .logo-voltar i{
-	color: #000;
-	font-size: 23px;
+	color: #b1b1b1;
+	font-size: 21px;
 }
 i:hover{
 	color: #2a41be;
