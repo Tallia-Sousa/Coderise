@@ -151,7 +151,8 @@ header .navigation a:hover{
 .img-x{
 	width: 50%;
 	height: 100%;
-	background-color:#C5CFF2; 
+	/* background-color:#C5CFF2;  */
+	background-color: #305448;
 	
 	padding: 20px;
 }
@@ -309,18 +310,20 @@ h5 a{
 .header-box{
 	width: 100%;
 	height: 37%;
-	background-color: #C5CFF2;
+	 /* background-color: #C5CFF2;  */
+	/* background-color: #3D5ED5; */
+	 background-color: #305448; 
 
 }
  .img-l{
 
     position: absolute;
-	top: 8%;
+	top: 10%;
     left: 0;
     right: 0;
     margin: auto;
-	width: 210px;
-	height: 210px;
+	width: 125px;
+	height: 125px;
 
 } 
 .box-form{
@@ -398,7 +401,7 @@ z-index: 10;
 p{
 position: absolute;
 align-items: center;
-left: 48%;
+left: 50%;
 transform: translate( -50%);
 z-index: 10;
 top: 345px;
@@ -469,6 +472,8 @@ i:hover{
 }
 body{
 	background-color: #FFF9F4;
+	width: 100%;
+	height: 100vh;
 
 }
 
