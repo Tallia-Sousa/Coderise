@@ -565,7 +565,7 @@ display: 100%;
 	transition: .5s;
 	margin: 16px; 
 }
-.input-usuario input{
+/* .input-usuario input{
 	width: 97%;
 
 	outline: none;
@@ -573,7 +573,7 @@ display: 100%;
 	border: none;
 	font-size: 17px;
 	border-bottom: 2px solid #b1b1b1;
-}
+} */
 
 .inputuser:focus ~ .lab-input, 
 .inputuser:valid ~ .lab-input{
