@@ -197,7 +197,7 @@ header .navigation a:hover{
 	font-size: 17px;
 	color:#32324f;
 	background-color: #ecf2ec;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 .content-box .form-box .input-bx span{
 	font-size: 16px;
@@ -209,20 +209,20 @@ header .navigation a:hover{
 .content-box .form-box .input-bx::placeholder{
 	color: #a9adb6;
 }
-#submitt{
+/* #submitt{
 	background-color: #000; 
 	
 	color: #fff;
 	outline: none;
 	border: none;
 	height: 43px;
-      /* border-radius: ; */
+      /* border-radius: ; 
 	cursor: pointer;
 	font-size: 14px;
 	transition: 0.2s;
 	
 	
-}
+ */
 
 #submitt:hover{
 	background-color: #515050;
