@@ -8,6 +8,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 section{
     position: relative;
     width: 100%;
@@ -137,12 +139,11 @@ header .navigation a:hover{
         font-size: 14px;
     }
 }
-
 /* estilos da pag cadastro */
 
 
 
-.container-login{
+.container-cadastro{
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -164,7 +165,7 @@ header .navigation a:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #FFF9F4;
+	background-color: transparent;
 	width: 50%;
 	height: 89%;
 	margin-top: 5%;
@@ -185,7 +186,7 @@ header .navigation a:hover{
 }
 .content-box .form-box{
 	margin-bottom: 20px;
-	 background-color: #FFF9F4; /* tentando arrumar o contraste */
+	 
 }
 .content-box .form-box .input-bx input{
 	width: 100%;
@@ -222,19 +223,20 @@ header .navigation a:hover{
 	
 	
 }
+
 #submitt:hover{
 	background-color: #515050;
 }
 
-h5 a{
+h5 .link-cadastro{
 	
-	color:  #7285f2;
+	color:  #7285f2;;
 	text-decoration: none;
 	
 	
 } 
 
- a:hover{
+ link:hover{
 	color: #5667c7;
 }
 
@@ -256,96 +258,86 @@ h5 a{
 	font-size: 22px;
 }
 @media (max-width: 868px) {
-	.container-login .img-x{
+	.container-cadastro .img-x{
 		display: none;
 	}
-	.container-login .content-box{
+	.container-cadastro .content-box{
 		width: 100%;
 	}
-	/* .logo-cd{
-		display: flex;
-		width: 40%;
-	} */
-	.container-login .content-box .form-box{
+
+	.container-cadastro .content-box .form-box{
 		width: 100%;
 		padding: 40px;
 		
 		margin: 50px;
 	}
-	.container-login .content-box h3{
+	.container-cadastro .content-box h3{
 		margin: 30px 0 10px;
 		
 	}
 	
 }
 @media (min-width: 450px){
-	.container-login .content-box .form-box .input-box a{
+	.container-cadastro .content-box .form-box .input-box a{
 		margin-top: 20px;
 	}
 }
-/* @media screen and (min-width: 286px){
-	.logo-cd i {
-		color: #607d8b;
-	}
-	i:hover{
-		color: #2a41be;
-	} 
-	 }c
-	@media screen and (min-width: 870px){
-		.logo-cd i {
-			color: #000;
-		}
-		i:hover{
-			color: #2a41be;
-		} 
-		 
-	} */
-
-/* estilos da pag login */
 
 
-.fundo{
-	height: 112vh;
 
-}
-.header-box{
+/*pagina de login*/
+.header-login{
 	width: 100%;
-	height: 37%;
-	 /* background-color: #C5CFF2;  */
-	/* background-color: #3D5ED5; */
-	 background-color: #305448; 
+	height: 67%;
+	background-color: #305448; 
 
 }
- .img-l{
 
-    position: absolute;
-	top: 10%;
+.imagem-login{
+   
+   width: 100%;
+	height: 10%;
+
+}
+
+#img-login{
+	width: 123px;
+	height: 123px;
+	position: absolute;
+	top: 8%;
     left: 0;
     right: 0;
     margin: auto;
-	width: 125px;
-	height: 125px;
 
-} 
-.box-form{
-position: absolute;
-top: 39%;
-left: 0;
-right: 0;
-margin: auto;
+}
+.container-login{
+
 display: flex;
-justify-content: center;
-align-items: center;
-width: 85%;
-background-color: #fcf6f1;
+     flex-direction: column;
+     width: 100%;
+     position: relative;
+/*     height: 30%;*/
 
-
-
-	 
 }
 
 
+.box-form{
+position: absolute;
+top: -18px;
+left: 0;
+right: 0;
+margin: auto;
+margin: auto;
+/*margin-top: -2%;*/
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
 
+background-color: #fcf6f1;;
+
+z-index: 10%;
+}
 
 .input-form input{
 
@@ -353,92 +345,6 @@ border-bottom: 2px solid #b1b1b1;
 
 
 
-}
-.label-input{
-position: absolute;
-top: 0px;
-left: 0px;
-pointer-events: none;
-transition: .5s;
-}
-.inputUser:focus ~ .label-input, 
-.inputUser:valid ~ .label-input{
-top: -20px;
-font-size: 12px;
-color: #7285f2;
-}
-input[type=submit]{
-background-color: #000000; 
-width: 140px; 
-height: 50px;
-border: none;
-color: #fff;
-padding: 10px;
-outline: none;
-cursor: pointer;
-border-radius: 5px;
-font-size: 14px;
-
-
-
-}
-input[type=submit]:hover {
-
-background-color: #515050;
-}
-.input-b{
-position: absolute;
-align-items: center;
-top: 250px;
-left: 50%;
-transform: translate( -50%);
-z-index: 10;
-}
-
-p{
-position: absolute;
-align-items: center;
-left: 50%;
-transform: translate( -50%);
-z-index: 10;
-top: 345px;
-
-}
-
-a{
-
-color:  #7285f2;
-text-decoration: none;
-}
-
-.texto-cadas{
-position: absolute;
-align-items: center;
-left: 50%;
-transform: translate( -50%);
-z-index: 10;
-top: 320px;
-
-}
-
-
-
-.logo-l{
-	
-	position: absolute;
-	align-items: center;
-	top: 10%;
-    left: 5%;
-    transform: translate( -50%);
-	z-index: 10;
-	
-}
- .logo-l i{
-	color: #b1b1b1;
-	font-size: 21px;
-} 
-i:hover{
-	color: #2a41be;
 }
 .login {
 	
@@ -467,81 +373,166 @@ i:hover{
 	width: 100%;
 	letter-spacing: 2px;  
 }
-body{
-	background-color: #FFF9F4;
-	width: 100%;
-	height: 100vh;
-
+.label-input{
+position: absolute;
+top: 0px;
+left: 0px;
+pointer-events: none;
+transition: .5s;
+}
+.inputUser:focus ~ .label-input, 
+.inputUser:valid ~ .label-input{
+top: -20px;
+font-size: 12px;
+color: #7285f2;
+}
+.container-login{
+	height: 100%;
 }
 
-/* estilos da pag esqueceu sua senha */
-
-
-.fundo-bx{
-	width: 100%;
-	height: 80vh;
-	
-	
-	
+.btn2{
+	 padding: 13px 20px;
 }
-
-#texto-l{
+.input-bt{
+	position: relative;
 	text-align: center;
-	color:#32324f;
-	font-weight: 600px;
+	margin: 0 auto;
+}
+
+
+.btn:hover{
+	background-color: #515050;
+}
+.link-senha{
+position: absolute;
+align-items: center;
+left: 50%;
+transform: translate( -50%);
+z-index: 10;
+top: 385px;
 
 }
-.header{
+
+.link{
+
+color:  #7285f2;
+text-decoration: none;
+}
+.link:hover {
+	color:#5667c7;
+}
+
+.texto-cadas{
+position: absolute;
+align-items: center;
+left: 50%;
+transform: translate( -50%);
+z-index: 10;
+top: 363px;
+
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+/*pag esquceu senha */
+
+body{
+	width: 100%;
+	height: 70vh;
+	background-color: #FFF9F4 ;
+}
+
+
+.header-bx{
 	width: 100%;
 	box-shadow: 5px 5px 10px rgba(236, 233, 233, 0.671) ;
 	border-bottom: 2px solid #e2e2e2 ; 
-
-	/* border-bottom: 2px solid #e2e2e2 ;  */
-	height: 14%;
+	height: 10vh;
 }
-.img-box{
-	width: 100%;
-	height: 40vh;
-}
-
-#imgb{
-	position: absolute;
-	top: 20%;
-    left: 0;
-    right: 0;
-    margin: auto;
-	width: 210px;
-	height: 210px;
-}
-.f-box{
-	position: absolute;
+.icone-voltar{
 	
-	top: 40%;
-    left: 0;
-    right: 4%;
-    margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 96%;
-	height: 100%;
-	 
+	position: absolute;
+     top: 5%;
+     left: 2%;
+     transform: translate(0,-50%);
+	 z-index: 30;
 
 }
-h3{
-	text-align: center;
-	text-transform: uppercase;
-}
-.texto{
+.icone-voltar i{
+	color: #b1b1b1;
+	font-size: 21px;
 	
-	text-align: center;
-	/* display: inline; */
+}
+.icone-voltar i:hover{
+	
+	color: #ffffff;
 }
 
-.input-f{
+#img-senha{
+    width: 160px;
+    height: 160px;
+    width: 200px;
+	height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10%;   
+     
+}
+
+.titulo-texto{
+	text-align: center;
+}
+ .texto{
+	text-indent: 0.5em;
+
+}
+.content-bx{
+
+position: absolute;
+
+left: 0;
+right: 15%;
+margin: 0;
+justify-content: center;
+align-items: center;
+width: 100%;
+display: flex;
+display: 100%;
+
+}
+.input-usuario{
 	position: relative;
 	
 }
+
+.btn{
+	 color: #fff;
+    background: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    border: none;
+  
+	
+}
+
+.input-btn{
+	
+	display: flex;
+	justify-content: center;
+}
+
+
 .inputuser{
 	background:none;
 	border: none;
@@ -552,7 +543,6 @@ h3{
 	margin: 16px; 
 	  
 }
-
 .lab-input{
 	position: absolute;
 	top: 0px;
@@ -561,68 +551,19 @@ h3{
 	transition: .5s;
 	margin: 16px; 
 }
-.input-f input{
+.input-usuario input{
 	width: 97%;
+
 	outline: none;
 	font-weight: 400;
 	border: none;
 	font-size: 17px;
 	border-bottom: 2px solid #b1b1b1;
 }
-  
+
 .inputuser:focus ~ .lab-input, 
 .inputuser:valid ~ .lab-input{
 	top: -20px;
 	font-size: 12px;
 	color: #7285f2;
 }
-
- input[type=submit]{
-	background-color: #000000; 
-	
-	padding: 10px;
-	color: #fff;
-	outline: none;
-	border: none;
-	font-weight: 500;
-	cursor: pointer;
-	font-size: 14px;
-	transition: 0.2s;
-	border-radius: 5px;
-	
-	
-} 
-
-#enviar{
-	position: absolute;
-	align-items: center;
-    left: 50%;
-	right: 50;
-    transform: translate( -42%);
-	
-
-}
-.logo-voltar{
-	
-	position: absolute;
-	align-items: center;
-	top: 2%;
-    left: 5%;
-    transform: translate( -50%);
-	 
-
-}
-.logo-voltar i{
-	color: #b1b1b1;
-	font-size: 21px;
-}
-i:hover{
-	color: #2a41be;
-}
-
-
-
-
-
-
-
