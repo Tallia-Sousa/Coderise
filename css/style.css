@@ -175,7 +175,7 @@ header .navigation a:hover{
 	width: 50%;
 	
 }
-.content-box .form-box legend{
+.content-box .form-box .cadastro{
 	color: rgb(80, 75, 75);
 	font-weight: 600px;
 	font-size: 1.3em;
@@ -197,7 +197,7 @@ header .navigation a:hover{
 	font-size: 17px;
 	color:#32324f;
 	background-color: #ecf2ec;
-	border-radius: 2px;
+	border-radius: 4px;
 }
 .content-box .form-box .input-bx span{
 	font-size: 16px;
@@ -209,20 +209,31 @@ header .navigation a:hover{
 .content-box .form-box .input-bx::placeholder{
 	color: #a9adb6;
 }
-/* #submitt{
+/* #submit{
 	background-color: #000; 
 	
 	color: #fff;
 	outline: none;
 	border: none;
 	height: 43px;
-      /* border-radius: ; 
 	cursor: pointer;
 	font-size: 14px;
 	transition: 0.2s;
 	
 	
- */
+ *} */
+ #submit{
+	background-color: #000; 
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+	font-size: 17px;
+	transition: 0.2s;
+	text-transform: uppercase;
+	
+}
 
 #submitt:hover{
 	background-color: #515050;
@@ -347,8 +358,6 @@ border-bottom: 2px solid #b1b1b1;
 
 }
 .login {
-	
-
 	text-align: center;
 	color:#32324f;
 	font-weight: 600px;
