@@ -358,11 +358,16 @@ border-bottom: 2px solid #b1b1b1;
 
 }
 .login {
-	text-align: center;
-	color:#32324f;
+	
+	color: rgb(80, 75, 75);
 	font-weight: 600px;
 	font-size: 1.3em;
-	margin-bottom: 15px;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: auto;
+	text-align: center;
 	
 	
 	
