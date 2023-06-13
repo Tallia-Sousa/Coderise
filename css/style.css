@@ -27,7 +27,7 @@ body{
 .img-x{
 	width: 50%;
 	height: 100%;
-	background-color: #9196F2;
+	background-color: #b2b6f0;
 	padding: 20px;
 }
 .img-x img{
@@ -171,7 +171,7 @@ h5 .linkcadastro{
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	background-color: var(--color-primary);
+	background-color: #b2b6f0
    
 
 }
@@ -467,7 +467,7 @@ z-index: 10%;
 	display: flex;
     flex-direction: column; 
 	position: relative; 
-	background-color: var(--color-primary);
+	background-color: #b2b6f0
    
 
 }
@@ -481,11 +481,11 @@ display: flex;
      position: relative;
 
 }
-#img-login{
+#img-perfil{
 	width: 123px;
 	height: 123px;
 	position: absolute;
-	top: 32%;
+	top: 47%;
     left: 0;
     right: 0;
     margin: auto;
@@ -566,11 +566,32 @@ z-index: 10%;
 		width: 100%;
 	}
 } */
+.avaliacao{
+	display: flex;
+   }
+  .star-icon{
+	list-style-type: none;
+/*	border: 1px solid #fff;*/
+	cursor: pointer;
+	color: #ffe500;
+	font-size: 40px;/* alterar o tamanho das estrelas */
+  }
+  .star-icon::before{
+	content: "\2605";
+  }
+  .star-icon.ativo ~ .star-icon::before{
+	content: "\2606";
+  }
+  .avaliacao:hover .star-icon::before{
+	content: "\2605";
+  }
+  .star-icon:hover ~ .star-icon::before{
+	content: "\2606";
+  }
 
-
-
-
-
+.text-avaliaçaõ{
+	text-transform: uppercase;
+}
 
 
 

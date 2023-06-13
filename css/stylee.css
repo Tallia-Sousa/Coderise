@@ -42,6 +42,10 @@ ul{
     align-items: baseline;
 }
 
+.jornada{
+    display: flex;
+    align-items: center;
+}
 
 header#cabecalho img#logo {
     position: absolute;
@@ -67,6 +71,7 @@ header#cabecalho img#logo {
 .containerb{
     padding: 0 1rem;
 }
+
 .containerb h3{
     padding-top: 1rem;
 }
@@ -155,6 +160,37 @@ img{
     background-color:#656cf1;
     
 }
+.cardJornada{
+    background-color: var(--color-primary);
+    border: 2px solid var(--colo-black);
+    box-shadow: 4px 4px 0 var(--colo-black);
+    padding: 0.1rem;
+    width: fit-content;
+    text-align: center;
+}  
+/*MAIN-VIDEOS*/
+section{
+    padding: 0 1rem;
+}
+.container-video{
+    max-width: 400px;
+    padding: 2vh;
+    margin: 0 auto;
+}
+.div-video{
+    width: 100%;
+    padding-top: 50%;
+    position: relative;
+}
+.div-video iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
 /*CARDS*/
 
 .course-section{
@@ -240,7 +276,31 @@ img{
     align-items: self-end;
     max-width: 50%;
 }
-    
+.textoJornada{
+    gap: 3rem;
+    margin: 0 auto;
+    display: block;
+    text-align: start;
+    max-width: 30%;
+}
+.containerJornada{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.caixaJornada{
+    display: flex;
+    justify-content:space-between;
+    align-items: last  baseline;
+}
+
+.div-video iframe{
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    border-radius: 10px;
+}
 }
 @media screen and (min-width: 40rem){
     .cards{
