@@ -170,6 +170,9 @@ img{
     padding: 0.1rem;
     width: fit-content;
     text-align: center;
+}
+.em-dev{
+    margin: 0 auto;
 }  
 /*MAIN-VIDEOS*/
 section{
