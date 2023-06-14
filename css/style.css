@@ -574,7 +574,7 @@ z-index: 10%;
 /*	border: 1px solid #fff;*/
 	cursor: pointer;
 	color: #ffe500;
-	font-size: 40px;/* alterar o tamanho das estrelas */
+	font-size: 35px;/* alterar o tamanho das estrelas */
   }
   .star-icon::before{
 	content: "\2605";
@@ -590,7 +590,8 @@ z-index: 10%;
   }
 
 .text-avaliaçaõ{
-	text-transform: uppercase;
+	text-transform: capitalize;
+	margin-left: -13px;
 }
 
 
