@@ -35,11 +35,14 @@ nav{
     justify-content: space-evenly;
     align-items: center;
 }
-ul{
+.ul-normal{
     display: flex;
     list-style: none;
     gap: 3rem;
     align-items: baseline;
+}
+.ul-anormal{
+    list-style: none;
 }
 
 .jornada{
