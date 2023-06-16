@@ -206,7 +206,7 @@ width: 80%;
 
 background-color: #fcf6f1;;
 
-z-index: 10%;
+
 }
 
 #e-mail, #senha, #nome{
@@ -222,7 +222,7 @@ border-radius: 0;
 	color: rgb(80, 75, 75);
 	font-weight: 600px;
 	font-size: 1.3em;
-	margin-top: -70px;
+	margin-top: 25px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
